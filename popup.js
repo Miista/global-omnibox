@@ -13,7 +13,7 @@ chrome.tabs.getCurrent(function(this_tab) {
           newURL = "http://" + userInput;
         }
         else {
-          newURL = "http://www." + userInput;
+          newURL = "http://" + userInput;
         }
         debugger;
       }
