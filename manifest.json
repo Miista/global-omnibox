@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "OpenInChrome",
+  "version": "2017.08.30",
+  "description": "Launch URL in Chrome",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "commands": {
+    "launch_url": {
+      "suggested_key": {
+        "default": "Alt+T"
+      },
+      "description": "Launches the URL in Chrome"
+    }
+  },
+  "permissions": [
+    "tabs"
+  ]
+}
